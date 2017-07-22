@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "title":"Basketball Superstar",
+    "model":[
+      {
+        "id":1,
+        "img":"/src/assets/images/img_5.jpg",
+        "title":"Michael Jordan",
+        "detail":"The secretary shooting guard, nicknamed 'Air Jordan'."
+      },
+      {
+        "id":2,
+        "img":"/src/assets/images/img_6.jpg",
+        "title":"Kobe Bryant",
+        "detail":"The secretary shooting guard/small forward, nicknamed 'black mamba', 'Peter pan'."
+      },
+      {
+        "id":3,
+        "img":"/src/assets/images/img_7.jpg",
+        "title":"Tim Duncan",
+        "detail":"Department ZhiDa forward/center, nicknamed 'the rock'."
+      },
+      {
+        "id":4,
+        "img":"/src/assets/images/img_8.jpg",
+        "title":"LeBron James",
+        "detail":"The secretary small forward, nicknamed 'little emperors'."
+      }
+    ]
+  }
+]

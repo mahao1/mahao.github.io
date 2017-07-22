@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "title":"Kobe Bryant",
+    "sub_title":"Kobe Bryant",
+    "detail":"The secretary shooting guard/small forward, nicknamed 'black mamba', 'Peter pan'",
+    "img":"/src/assets/images/img_1.jpg"
+  },
+  {
+    "id":2,
+    "title":"LeBron James",
+    "sub_title":"LeBron James",
+    "detail":"The secretary small forward, nicknamed 'little emperors'",
+    "img":"/src/assets/images/img_2.jpg"
+  },
+  {
+    "id":3,
+    "title":"Dwyane Wade",
+    "sub_title":"Dwyane Wade",
+    "detail":"The secretary shooting guard, nicknamed the 'flash'",
+    "img":"/src/assets/images/img_3.jpg"
+  }
+]
