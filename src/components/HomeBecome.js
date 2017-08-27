@@ -18,18 +18,6 @@ class HomeBecome extends Component{
     }
     return (
       <div className="become">
-        {/*<div className="container">
-          <h3>Become a Model</h3>
-          <div className="col-md-7 become-left">
-            <p><span className="bec">1 . </span>Lorem Ipsum available, but the  have suffered alteration in some form, by injected humour, or randomised words which don't look. </p>
-            <p><span className="bec">2 . </span>Majority lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't. </p>
-            <p><span className="bec">3 . </span>suffered lorem Ipsum available, but the majority have  alteration in some form, by injected humour, or randomised words which don't look. </p>
-          </div>
-          <div className="col-md-5 become-right">
-            <img className="img-responsive" src="/src/assets/images/8.jpg" alt=""/>
-          </div>
-          <div className="clearfix"></div>
-        </div>*/}
         {
           arr.map((item,index)=>{
             return (
