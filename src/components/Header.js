@@ -17,12 +17,6 @@ class Header extends Component{
           {/*navbar-header*/}
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              {/*<li className="active"><a href="index.html">Home</a></li>*/}
-              {/*<li><a href="about.html">About</a></li>*/}
-              {/*<li><a href="fashion.html">Fashion</a></li>*/}
-              {/*<li><a href="styles.html">Styles</a></li>*/}
-              {/*/!*<li><a href="shortcodes.html">Short Codes</a></li>*!/*/}
-              {/*<li><a href="contact.html">Contact</a></li>*/}
               <li><Link to="home" activeClassName="active">Home</Link></li>
               <li><Link to="about" activeClassName="active">About</Link></li>
               <li><Link to="fashion" activeClassName="active">Fashion</Link></li>
