@@ -19,42 +19,6 @@ class HomeTips extends Component{
     return (
       <div className="tips">
         <div className="container">
-          {/*<div className="col-md-4 tips-left">
-            <h3>FASHION TIPS</h3>
-            <a href="javascript:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/14.jpg" alt=""/>
-                <figcaption>
-                  <h4>Lorem Ipsum available</h4>
-                  <p>There are many variations of passages.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-4 tips-left">
-            <h3>STYLE GUIDE</h3>
-            <a href="javasctipt:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/15.jpg" alt=""/>
-                <figcaption>
-                  <h4>The majority have</h4>
-                  <p>There are many variations of passages .</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-4 tips-left">
-            <h3>FASHION TRENDS</h3>
-            <a href="javasctipt:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/17.jpg" alt=""/>
-                <figcaption>
-                  <h4>Many desktop publishing</h4>
-                  <p>There are many variations of passages.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>*/}
           {
             arr.map((item,index)=>{
               return (
