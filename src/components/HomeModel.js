@@ -18,53 +18,6 @@ class HomeModel extends Component{
     }
     return (
       <div className="model">
-        {/*<div className="container">
-          <h3>Top Models</h3>
-          <div className="col-md-3 tips-left1">
-            <a href="javasctipt:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/4.jpg" alt=""/>
-                <figcaption>
-                  <h4>Alessandra</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="javasctipt:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/5.jpg" alt=""/>
-                <figcaption>
-                  <h4>Candice</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="javasctipt:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/6.jpg" alt=""/>
-                <figcaption>
-                  <h4>Gisele</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="/">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/7.jpg" alt=""/>
-                <figcaption>
-                  <h4>Crawford</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>*/}
         {
           arr.map((item,index)=>{
             return (
