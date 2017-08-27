@@ -18,25 +18,6 @@ class StylesStyle extends Component{
     }
     return (
       <div className="style">
-        {/*<div className="container">
-          <div className="col-md-7 style-left">
-            <h3>THE MOST POPULAR IN THE WORLD OF STYLE</h3>
-            <h5>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ENCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMM. </h5>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum </p>
-          </div>
-          <div className="col-md-5 style-right">
-            <h3>OFFERING GREAT IDEAS AND STYLES</h3>
-            <ul>
-              <li><a href="javascript:;"><span></span>Entire soul, the release simply. </a></li>
-              <li><a href="javascript:;"><span></span>I enjoy with my whole the relea.</a></li>
-              <li><a href="javascript:;"><span></span>Lorem Ipsum is the release  simp.</a></li>
-              <li><a href="javascript:;"><span></span>Sweet mornings of the release.  </a></li>
-              <li><a href="javascript:;"><span></span>Entire soul, the release simp.</a></li>
-              <li><a href="javascript:;"><span></span>I enjoy with my whole the rel. </a></li>
-            </ul>
-          </div>
-          <div className="clearfix"></div>
-        </div>*/}
         {
           arr.map((item,index)=>{
             return (
