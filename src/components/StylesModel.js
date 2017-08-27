@@ -17,53 +17,7 @@ class StylesModel extends Component{
       arr.push(styles_model[i])
     }
     return (
-      <div className="model">
-        {/*<div className="container">
-          <div className="col-md-3 tips-left1">
-            <a href="jacascript:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/4.jpg" alt=""/>
-                <figcaption>
-                  <h4>Alessandra</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="jacascript:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/5.jpg" alt=""/>
-                <figcaption>
-                  <h4>Candice</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="jacascript:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/6.jpg" alt=""/>
-                <figcaption>
-                  <h4>Gisele</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div className="col-md-3 tips-left1">
-            <a href="jacascript:;">
-              <figure className="effect-bubba">
-                <img className="img-responsive" src="/src/assets/images/7.jpg" alt=""/>
-                <figcaption>
-                  <h4>Crawford</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        </div>*/}
+      <div className="model"> 
         {
           arr.map((item,index)=>{
             return (
